@@ -21,7 +21,7 @@ def display_var(theta_var):
 
 if __name__ == '__main__':
 
-    dt = Dataset('/home/kt/NIST_npy/', one_hot=True)
+    dt = Dataset('../NIST_npy/', one_hot=True)
     mb_size = 100
     x_dim = dt.train_data.shape[1]
     y_dim = dt.train_label.shape[1]
