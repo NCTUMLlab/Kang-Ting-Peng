@@ -18,5 +18,11 @@ The dataset.py is used to handle the dataset  (ex. next_batch, sort, add), If ev
   <img src="fig/PLDA-GAN-Cos-Gen-Disc.png" width = 50% height = 50% alt="PLDA-GAN-Cos-Gen-Disc" align=center />
 
 # Setting
+- Ubuntu 16.04 64bit
 - Python 2.7.12
 - Tensorflow 1.1
+
+# Hardware
+  - Intel i7-4930K @3.40GHz
+  - DDR3-1600 8GB*8
+  - Nvidia GeForce GTX 980 3GB
