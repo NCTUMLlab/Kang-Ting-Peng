@@ -7,7 +7,7 @@ The dataset.py is used to handle the dataset  (ex. next_batch, sort, add), If ev
 
 
 # Architecture
-<img src="fig/GAN-Cos-Gen.png" width = "300" height = "200" alt="GAN-Cos-Gen" align=center />
+<img src="fig/GAN-Cos-Gen.png" width = 50% height = 50% alt="GAN-Cos-Gen" align=center />
 
 # Setting
 - Python 2.7.12
