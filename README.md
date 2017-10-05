@@ -7,7 +7,7 @@ The dataset.py is used to handle the dataset  (ex. next_batch, sort, add), If ev
 
 
 # Architecture
-
+![Alt text](../GAN-Cos-Gen.pdf)
 
 # Setting
 - Python 2.7.12
