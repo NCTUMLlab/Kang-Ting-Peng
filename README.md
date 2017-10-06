@@ -5,6 +5,7 @@ You need to download NIST 2014 i-vector Machine Learning Challenge. Convert the 
 
 The dataset.py is used to handle the dataset  (ex. next_batch, sort, add), If everything is ready, execute main.py to start training.
 
+After the training is completed, you can run generate.ipynb to generate data.
 
 # Architecture
 
