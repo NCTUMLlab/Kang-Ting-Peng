@@ -83,10 +83,10 @@ class Model(object):
         
   
         # Cosine loss 
-        x_norm = tf.norm(self.x, ord=2, axis=1)
+        x_norm = tf.norm(r_latent, ord=2, axis=1)
         x_unit = self.x / x_norm[:, None]
 
-        x_hat_norm = tf.norm(fake_x, ord=2, axis=1)
+        x_hat_norm = tf.norm(f_latent, ord=2, axis=1)
         x_hat_unit = fake_x / x_hat_norm[:, None]
         self.cosine_loss = tf.reduce_mean(tf.reduce_sum(tf.multiply(x_unit, x_hat_unit), 1))
         self.gcosine_loss = -self.cosine_loss 
